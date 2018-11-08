@@ -26,9 +26,9 @@ libgl1-mesa-dri \
 libgl1-mesa-glx \
 mesa-utils
 
-RUN useradd -d /home/firefox -m firefox
-RUN passwd -d firefox
-RUN adduser firefox sudo
+RUN useradd -d /home/firefox -m firefox && \
+passwd -d firefox && \
+adduser firefox sudo
 
 RUN apt-get --purge autoremove -y
 
