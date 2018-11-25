@@ -1,6 +1,6 @@
 # FIREFOX
 
-![firefox](https://raw.githubusercontent.com/oda-alexandre/firefox/master/logo-firefox.png) ![docker](https://raw.githubusercontent.com/oda-alexandre/firefox/master/logo-docker.png)
+![firefox](https://raw.githubusercontent.com/oda-alexandre/firefox/master/img/logo-firefox.png) ![docker](https://raw.githubusercontent.com/oda-alexandre/firefox/master/img/logo-docker.png)
 
 
 ## INDEX
