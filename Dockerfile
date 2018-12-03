@@ -34,4 +34,10 @@ RUN apt-get --purge autoremove -y
 
 USER firefox
 
+RUN sudo apt-get --purge autoremove -y && \
+sudo apt-get autoclean -y && \
+sudo rm /etc/apt/sources.list && \
+sudo rm -rf /var/cache/apt/archives/* && \
+sudo rm -rf /var/lib/apt/lists/*
+
 CMD firefox
