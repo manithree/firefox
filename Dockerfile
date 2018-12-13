@@ -2,8 +2,13 @@ FROM debian:stretch-slim
 
 MAINTAINER https://oda-alexandre.github.io
 
+ENV LANG fr_FR.UTF-8
+ENV LANGUAGE fr_FR:en
+ENV LC_ALL fr_FR.UTF-8
+
 RUN apt-get update && apt-get install -y --no-install-recommends \
 sudo \
+locales \
 firefox-esr \
 desktop-file-utils \
 adwaita-icon-theme \
@@ -25,6 +30,8 @@ libcanberra-gtk3-module \
 libgl1-mesa-dri \
 libgl1-mesa-glx \
 mesa-utils
+
+RUN locale-gen fr_FR.UTF-8
 
 RUN useradd -d /home/firefox -m firefox && \
 passwd -d firefox && \
