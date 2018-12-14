@@ -29,16 +29,11 @@ libgl1-mesa-glx \
 mesa-utils
 
 ENV LANG fr_FR.UTF-8
-ENV LANGUAGE fr_FR:en
-ENV LC_ALL fr_FR.UTF-8
-
-RUN locale-gen fr_FR.UTF-8
+RUN echo fr_FR.UTF-8 UTF-8 > /etc/locale.gen && locale-gen
 
 RUN useradd -d /home/firefox -m firefox && \
 passwd -d firefox && \
 adduser firefox sudo
-
-RUN apt-get --purge autoremove -y
 
 USER firefox
 
