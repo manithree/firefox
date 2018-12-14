@@ -19,7 +19,7 @@
 
 ## INTRODUCTION
 
-Ce repository contient le fichier Dockerfile de [Firefox](https://www.mozilla.org/en-US/firefox/new/) pour [Docker](https://www.docker.com), mis à jour automatiquement dans le [Docker Hub](https://hub.docker.com/r/alexandreoda/firefox/) public.
+Ce repository contient le fichier Dockerfile de [Firefox](https://www.mozilla.org/en-US/firefox/new/) en francais pour [Docker](https://www.docker.com), mis à jour automatiquement dans le [Docker Hub](https://hub.docker.com/r/alexandreoda/firefox/) public.
 
 
 ## PREREQUIS
