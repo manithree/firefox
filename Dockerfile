@@ -31,7 +31,7 @@ libcanberra-gtk-module \
 libcanberra-gtk3-module \
 libgl1-mesa-dri \
 libgl1-mesa-glx \
-mesa-utils
+mesa-utils && \
 
 # SELECTION DE LA LANGUE FRANCAISE
 echo ${LANG} > /etc/locale.gen && locale-gen && \
