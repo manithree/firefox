@@ -1,25 +1,32 @@
 # FIREFOX
 
-![firefox](https://raw.githubusercontent.com/oda-alexandre/firefox/master/img/logo-firefox.png) ![docker](https://raw.githubusercontent.com/oda-alexandre/firefox/master/img/logo-docker.png)
+[![dockeri.co](https://dockeri.co/image/alexandreoda/firefox)](https://hub.docker.com/r/alexandreoda/firefox)
 
 
 ## INDEX
 
-- [Build Docker](#BUILD)
+- [Badges](#BADGES)
 - [Introduction](#INTRODUCTION)
 - [Prerequis](#PREREQUIS)
 - [Installation](#INSTALLATION)
 - [License](#LICENSE)
 
 
-## BUILD DOCKER
+## BADGES
 
-[![firefox docker build](https://img.shields.io/docker/build/alexandreoda/firefox.svg)](https://hub.docker.com/r/alexandreoda/firefox)
+[![version](https://images.microbadger.com/badges/version/alexandreoda/firefox.svg)](https://microbadger.com/images/alexandreoda/firefox)
+[![size](https://images.microbadger.com/badges/image/alexandreoda/firefox.svg)](https://microbadger.com/images/alexandreoda/firefox")
+[![build](https://img.shields.io/docker/build/alexandreoda/firefox.svg)](https://hub.docker.com/r/alexandreoda/firefox)
+[![automated](https://img.shields.io/docker/automated/alexandreoda/firefox.svg)](https://hub.docker.com/r/alexandreoda/firefox)
 
 
 ## INTRODUCTION
 
-Ce repository contient le fichier Dockerfile de [Firefox](https://www.mozilla.org/en-US/firefox/new/) en francais pour [docker](https://www.docker.com), mis à jour automatiquement dans le [docker hub](https://hub.docker.com/r/alexandreoda/firefox/) public.
+Ce repository contient le fichier Dockerfile de
+
+- [firefox](https://www.mozilla.org/en-US/firefox/new/) en francais.
+
+Mis à jour automatiquement dans le [docker hub public](https://hub.docker.com/r/alexandreoda/firefox).
 
 
 ## PREREQUIS
