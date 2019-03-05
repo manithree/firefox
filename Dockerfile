@@ -3,8 +3,8 @@ FROM debian:stretch-slim
 MAINTAINER https://oda-alexandre.com
 
 # VARIABLES
-ENV USER firefox \
-LANG fr_FR.UTF-8
+ENV USER firefox
+ENV LANG fr_FR.UTF-8
 
 # INSTALLATION DE L'APPLICATION
 RUN apt-get update && apt-get install -y --no-install-recommends \
