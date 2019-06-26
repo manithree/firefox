@@ -1,6 +1,6 @@
 # FIREFOX
 
-[![dockeri.co](https://dockeri.co/image/alexandreoda/firefox)](https://hub.docker.com/r/alexandreoda/firefox)
+<img src="https://telecharger.itespresso.fr/wp-content/uploads/2013/02/logo-1024x982.png" />
 
 
 ## INDEX
@@ -14,10 +14,7 @@
 
 ## BADGES
 
-[![version](https://images.microbadger.com/badges/version/alexandreoda/firefox.svg)](https://microbadger.com/images/alexandreoda/firefox)
-[![size](https://images.microbadger.com/badges/image/alexandreoda/firefox.svg)](https://microbadger.com/images/alexandreoda/firefox")
-[![build](https://img.shields.io/docker/build/alexandreoda/firefox.svg)](https://hub.docker.com/r/alexandreoda/firefox)
-[![automated](https://img.shields.io/docker/automated/alexandreoda/firefox.svg)](https://hub.docker.com/r/alexandreoda/firefox)
+[![pipeline status](https://gitlab.com/oda-alexandre/firefox/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/firefox/commits/master)
 
 
 ## INTRODUCTION
