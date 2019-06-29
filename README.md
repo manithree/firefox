@@ -21,7 +21,7 @@
 
 Docker image of :
 
-- [firefox](https://www.mozilla.org/en-US/firefox/new/) en francais.
+- [firefox](https://www.mozilla.org/en-US/firefox/new/) in french
 
 Automatically updated on : [docker hub public](https://hub.docker.com/r/alexandreoda/firefox).
 
