@@ -7,7 +7,7 @@
 
 - [Badges](#BADGES)
 - [Introduction](#INTRODUCTION)
-- [PREREQUISITESites](#PREREQUISITESITES)
+- [Prerequisites](#PREREQUISITESITES)
 - [Install](#INSTALL)
 - [License](#LICENSE)
 
@@ -23,7 +23,7 @@ Docker image of :
 
 - [firefox](https://www.mozilla.org/en-US/firefox/new/) en francais.
 
-automatically updated on : [docker hub public](https://hub.docker.com/r/alexandreoda/firefox).
+Automatically updated on : [docker hub public](https://hub.docker.com/r/alexandreoda/firefox).
 
 
 ## PREREQUISITES
