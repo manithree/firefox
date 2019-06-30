@@ -1,6 +1,6 @@
 # FIREFOX
 
-<img src="https://telecharger.itespresso.fr/wp-content/uploads/2013/02/logo-1024x982.png" />
+<img src="https://telecharger.itespresso.fr/wp-content/uploads/2013/02/logo-1024x982.png" width="200" height="200"/>
 
 
 ## INDEX
