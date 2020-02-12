@@ -1,6 +1,6 @@
 # FIREFOX
 
-<img src="https://telecharger.itespresso.fr/wp-content/uploads/2013/02/logo-1024x982.png" width="200" height="200"/>
+<img src="https://assets.gitlab-static.net/uploads/-/system/project/avatar/12904445/Firefox-Logo-1.jpg" width="200" height="200"/>
 
 
 ## INDEX
