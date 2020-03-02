@@ -4,12 +4,10 @@ LABEL authors https://www.oda-alexandre.com
 
 ENV USER firefox
 ENV HOME /home/${USER}
-ENV LOCALES fr_FR.UTF-8
 
 RUN echo -e '\033[36;1m ******* INSTALL APP ******** \033[0m' && \
   apt-get update && apt-get install -y --no-install-recommends \
   sudo \
-  locales \
   firefox-esr \
   firefox-esr-l10n-fr \
   desktop-file-utils \
@@ -32,9 +30,6 @@ RUN echo -e '\033[36;1m ******* INSTALL APP ******** \033[0m' && \
   libgl1-mesa-dri \
   libgl1-mesa-glx \
   mesa-utils
-
-RUN echo -e '\033[36;1m ******* CHANGE LOCALES ******** \033[0m' && \
-  locale-gen ${LOCALES}
 
 RUN echo -e '\033[36;1m ******* ADD USER ******** \033[0m' && \
   useradd -d ${HOME} -m ${USER} && \
