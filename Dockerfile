@@ -29,13 +29,7 @@ RUN echo -e '\033[36;1m ******* INSTALL APP ******** \033[0m' && \
   libcanberra-gtk3-module \
   libgl1-mesa-dri \
   libgl1-mesa-glx \
-  mesa-utils \
-  && \
-  echo -e '\033[36;1m ******* CLEANING ******** \033[0m' && \
-  apt-get --purge autoremove -y && \
-  apt-get autoclean -y && \
-  rm /etc/apt/sources.list && \
-  rm -rf /var/cache/apt/archives/* && \
+  mesa-utils && \
   rm -rf /var/lib/apt/lists/*
 
 RUN echo -e '\033[36;1m ******* ADD USER ******** \033[0m' && \
