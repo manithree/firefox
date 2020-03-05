@@ -35,7 +35,20 @@ Use [docker](https://www.docker.com)
 ### DOCKER RUN
 
 ```\
-docker  run -d --name firefox -v ${HOME}:/home/firefox -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v /dev/shm:/dev/shm -v /var/run/dbus:/var/run/dbus -e PULSE_SERVER=unix:${XDG_RUNTIME_DIR}/pulse/native -v ${XDG_RUNTIME_DIR}/pulse/native:${XDG_RUNTIME_DIR}/pulse/native --group-add audio --device /dev/snd  -e DISPLAY -p 80 -p 443 alexandreoda/firefox
+docker run -d \
+--name firefox \
+--group-add audio \
+--device /dev/snd \
+-e DISPLAY \
+-e PULSE_SERVER=unix:${XDG_RUNTIME_DIR}/pulse/native \
+-v ${HOME}:/home/firefox \
+-v /tmp/.X11-unix/:/tmp/.X11-unix/ \
+-v /dev/shm:/dev/shm \
+-v /var/run/dbus:/var/run/dbus \
+-v ${XDG_RUNTIME_DIR}/pulse/native:${XDG_RUNTIME_DIR}/pulse/native \
+-p 80 \
+-p 443 \
+alexandreoda/firefox
 ```
 
 ### DOCKER COMPOSE
