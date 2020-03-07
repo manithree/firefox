@@ -37,6 +37,7 @@ Use [docker](https://www.docker.com)
 ```\
 docker run -d \
 --name firefox \
+--network host \
 --group-add audio \
 --device /dev/snd \
 -e DISPLAY \
@@ -46,8 +47,6 @@ docker run -d \
 -v /dev/shm:/dev/shm \
 -v /var/run/dbus:/var/run/dbus \
 -v ${XDG_RUNTIME_DIR}/pulse/native:${XDG_RUNTIME_DIR}/pulse/native \
--p 80 \
--p 443 \
 alexandreoda/firefox
 ```
 
@@ -62,6 +61,7 @@ services:
     image: alexandreoda/firefox
     restart: "no"
     privileged: false
+    network_mode: host
     devices:
       - /dev/snd
     environment:
@@ -73,9 +73,6 @@ services:
       - "/dev/shm:/dev/shm"
       - "/var/run/dbus:/var/run/dbus"
       - "${XDG_RUNTIME_DIR}/pulse/native:${XDG_RUNTIME_DIR}/pulse/native"
-    ports:
-      - "443"
-      - "80"
 ```
 
 ## LICENSE
