@@ -2,8 +2,6 @@
 
 ![logo](https://assets.gitlab-static.net/uploads/-/system/project/avatar/12904445/Firefox-Logo-1.jpg)
 
-## INDEX
-
 - [FIREFOX](#firefox)
   - [INDEX](#index)
   - [BADGES](#badges)
@@ -30,7 +28,7 @@ Automatically updated on : [docker hub public](https://hub.docker.com/r/alexandr
 
 Use [docker](https://www.docker.com)
 
-## INSTALL
+## BUILD
 
 ### DOCKER RUN
 
