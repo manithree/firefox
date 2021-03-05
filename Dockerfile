@@ -8,8 +8,7 @@ ENV HOME /home/${USER}
 RUN echo -e '\033[36;1m ******* INSTALL APP ******** \033[0m' && \
   apt-get update && apt-get install -y --no-install-recommends \
   sudo \
-  firefox-esr \
-  firefox-esr-l10n-fr \
+  libreoffice-writer \
   desktop-file-utils \
   adwaita-icon-theme \
   ttf-dejavu \
@@ -29,13 +28,20 @@ RUN echo -e '\033[36;1m ******* INSTALL APP ******** \033[0m' && \
   libcanberra-gtk3-module \
   libgl1-mesa-dri \
   libgl1-mesa-glx \
-  mesa-utils && \
+  mesa-utils \
+  tar \
+  bzip2 \
+  curl && \
   rm -rf /var/lib/apt/lists/*
 
 RUN echo -e '\033[36;1m ******* ADD USER ******** \033[0m' && \
   useradd -d ${HOME} -m ${USER} && \
   passwd -d ${USER} && \
   adduser ${USER} sudo
+
+ADD firefox.tar.bz2 /opt/
+
+ENV PATH=/opt/firefox:${PATH}
 
 RUN echo -e '\033[36;1m ******* SELECT USER ******** \033[0m'
 USER ${USER}
